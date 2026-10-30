@@ -1,1 +1,102 @@
+# Unwrapping AI — Zero to Transformer
 
+**A visual, hands-on learning journey from machine learning fundamentals to Transformers.**
+
+**Creator:** Nitin K. Sethi
+
+## About This Project
+
+Zero to Transformer is a practical learning series designed to explain the concepts behind machine learning and deep learning through simple explanations, Python implementations, experiments, and visualizations.
+
+The objective is to understand not only how to write the code, but also **why each technique works, when to use it, and how it contributes to building intelligent systems.**
+
+We will progress through 12 learning milestones, from fundamental data concepts to Transformer architectures, using Google Colab and Python.
+
+## Learning Roadmap
+
+| Step | Topic | Status |
+|---|---|---|
+| 01 | Train–Test Split | In progress |
+| 02 | Mean Squared Error (MSE) | Planned |
+| 03 | Linear Regression | Planned |
+| 04 | Gradient Descent | Planned |
+| 05 | Overfitting | Planned |
+| 06 | Regularization | Planned |
+| 07 | Cross-Validation | Planned |
+| 08 | Decision Trees | Planned |
+| 09 | Random Forests | Planned |
+| 10 | Perceptron | Planned |
+| 11 | Backpropagation | Planned |
+| 12 | Transformers | Planned |
+
+## Step 01 — Train–Test Split
+
+### Learning Objectives
+
+- Understand supervised learning and labeled datasets.
+- Identify input features (`X`) and target variables (`y`).
+- Understand why training and testing data must be separated.
+- Implement an 80:20 train–test split using scikit-learn.
+- Verify the split and visualize the dataset proportions.
+- Understand reproducibility using `random_state`.
+
+### Practical Implementation
+
+**Notebook:** `Zero to Transformer — Step 01: Train–Test Split.ipynb`
+
+**Tools and libraries:**
+- Python
+- Google Colab
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+The exercise uses a built-in dataset to demonstrate how data is separated into training and testing subsets.
+
+### Key Concepts
+
+- **Training data:** Used to fit a machine learning model.
+- **Testing data:** Reserved for evaluating model performance on unseen examples.
+- **Features (`X`):** Inputs used to make predictions.
+- **Target (`y`):** The actual outcome the model learns to predict.
+- **Generalization:** The ability to perform well on new data.
+- **Reproducibility:** The ability to repeat an experiment consistently.
+
+## How to Use This Repository
+
+1. Open the relevant notebook.
+2. Review the conceptual introduction before running the code.
+3. Execute the cells in Google Colab.
+4. Examine the outputs and visualizations.
+5. Experiment with the parameters.
+6. Record observations and commit meaningful updates.
+
+## Learning Philosophy
+
+At Unwrapping AI, every milestone follows three principles:
+
+**Understand the concept → Implement the solution → Interpret the results.**
+
+The goal is to build practical knowledge progressively, with reproducible experiments and documented learning outcomes.
+
+## Repository Structure
+
+```text
+Zero-to-transformer/
+├── README.md
+├── LICENSE
+└── Zero to Transformer — Step 01: Train–Test Split.ipynb
+```
+
+Additional notebooks, visualizations, and supporting resources will be added as the series progresses.
+
+## About Unwrapping AI
+
+Unwrapping AI is a visual learning series focused on making artificial intelligence, machine learning, and deep learning easier to understand through practical projects.
+
+**Learn the concept. Build the model. Understand the why.**
+
+---
+
+*This repository is a work in progress. Learning milestones will be marked complete as their implementations and documentation are finished and verified.*
